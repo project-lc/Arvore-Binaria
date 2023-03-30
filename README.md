@@ -5,4 +5,4 @@ Conteúdo para o primeiro trabalho de TPA do Curso BSI do Ifes Serra 2022/1
 
 • [To Do](https://to-do.live.com/tasks/id/AQMkADAwATZiZmYAZC1jZWUBLWY2ZTgtMDACLTAwCgBGAAADH-T33Qme4kexb-rt01_HYgcAbgRge90pIEaac_u39p_3IQAGxdXTKgAAAG4EYHvdKSBGmnPrt-aftyEABsXWOOwAAAA=/details)
 
-• [Project do Git Hub](https://github.com/users/higorcamposs/projects/3/views/1)
+• [Project do Git Hub](https://github.com/users/project-lc/projects/1/views/1)

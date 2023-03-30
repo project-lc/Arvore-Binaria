@@ -1,0 +1,14 @@
+O método compareTo() da interface Comparable retorna um número inteiro que indica a relação de ordem entre dois objetos. Esse método deve ser implementado na classe que implementa a interface Comparable.
+
+O valor retornado pelo método compareTo() indica se o objeto que invoca o método é menor, igual ou maior do que o objeto passado como parâmetro.
+
+Mais especificamente, o valor retornado pelo método compareTo() segue a seguinte convenção:
+
+Retorna um número negativo se o objeto que invoca o método é menor do que o objeto passado como parâmetro;
+Retorna zero se o objeto que invoca o método é igual ao objeto passado como parâmetro;
+Retorna um número positivo se o objeto que invoca o método é maior do que o objeto passado como parâmetro.
+Na implementação da árvore binária que utiliza a interface Comparable, o método compareTo() é utilizado para comparar o valor do nó que está sendo inserido com o valor do nó atual da árvore.
+
+Se o valor do nó que está sendo inserido é menor do que o valor do nó atual, então o método compareTo() retorna um número negativo, o que indica que o nó deve ser inserido no lado esquerdo da árvore. Por isso, a verificação valor.compareTo(noAtual.valor) < 0 testa se o valor do nó que está sendo inserido é menor do que o valor do nó atual. Se esse teste for verdadeiro, o nó é inserido no lado esquerdo da árvore.
+
+Caso contrário, se o valor do nó que está sendo inserido é maior ou igual ao valor do nó atual, o método compareTo() retorna um número positivo ou zero, o que indica que o nó deve ser inserido no lado direito da árvore.

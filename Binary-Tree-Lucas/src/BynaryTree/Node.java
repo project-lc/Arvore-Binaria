@@ -4,6 +4,8 @@ public class Node<T extends Comparable> {
     private T valor;
     private Node esq, dir;
 
+    public Node(){}
+
     public Node(T valor){
         this.valor = valor;
         this.esq = null;
